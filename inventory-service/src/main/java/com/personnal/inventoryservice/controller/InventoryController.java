@@ -20,7 +20,7 @@ public class InventoryController {
     @ResponseStatus(HttpStatus.OK)
     public List<InventoryResponse> isInStock(@RequestParam List<String> skuCode) {
 //        System.out.println("hello worlds");
-        System.out.println("naman jain");
+   //     System.out.println("naman jain");
         System.out.println("checking pull request");
         return inventoryService.isInStock(skuCode);
     }
