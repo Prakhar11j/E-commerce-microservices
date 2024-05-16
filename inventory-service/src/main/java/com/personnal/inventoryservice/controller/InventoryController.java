@@ -19,9 +19,14 @@ public class InventoryController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<InventoryResponse> isInStock(@RequestParam List<String> skuCode) {
+
 //        System.out.println("hello worlds");
    //     System.out.println("naman jain");
         System.out.println("checking pull request");
+
+        System.out.println("hello worlds");
+        System.out.println("checking pull");
+
         return inventoryService.isInStock(skuCode);
     }
 }
