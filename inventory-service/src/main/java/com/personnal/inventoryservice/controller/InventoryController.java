@@ -26,7 +26,10 @@ public class InventoryController {
 
         System.out.println("hello worlds");
         System.out.println("checking pull");
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         return inventoryService.isInStock(skuCode);
     }
 }
